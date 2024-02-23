@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+.header-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.header-item{
+    margin-right: 30px;
+    color: #1F1534;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+.header-item:active,
+.active{
+    color: #1F1534;
+    font-weight: 700;
+}
+.hero-wrapper{
+    margin: 84px 0 92px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-img{
+    width: 600px;
+    height: 500px;
+}
+.hero-left{
+    width: 445px;
+}
+.hero-title{
+    color: #000;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 56px;
+}
+.hero-text{
+    margin: 25px 0 45px 0;
+    color: #7D7987;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+}
+.hero-btn{
+    padding: 3px 40px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 3;
+    border-radius: 55px;
+    background: #458FF6;
+    border: none;
+    cursor: pointer;
+}
+.service-cart{
+    text-align: center;
+    margin-top: 192px;
+    background-image: url(Vector.svg);
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+.service-header{
+    padding-bottom: 10px;
+}
+.service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+hr{
+    display: block;
+    width: 50px;
+    height: 3px;
+    margin-left: 520px;
+    background-color: black;
+}
+.service-text{
+    width: 700px;
+    color: gray;
+    margin-left: 235px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.service-list{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* margin-right: 500px; */
+    list-style: none;
+}
+.service-item{
+    width: 400px;
+    height: 354px;   
+    background-color: #FFFFFF; 
+    margin: 50px 25px; 
+    border-radius: 5%; 
+}
+.service-item-img{
+    margin: 20px 265px 0 0;
+    padding-bottom: 25px;
+}
+.service-item-title{
+    padding-bottom: 15px;
+    margin-right: 175px;
+}
+.service-item-text{
+    width: 300px;
+    font-size: 17px;
+    margin-left: 20px;
+    color: gray;
+}
+.learn-more{
+    width: 175px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 40px;
+    border-color: #458FF6;
+    color: #458FF6;
+}
