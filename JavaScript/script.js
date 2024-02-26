@@ -109,7 +109,21 @@ console.log(car);
 const id = "AA0" // unchangeable
 console.log(id);
 
+// let a = 5;
+// let b = 10;
+// console.log(a + b);
+// console.log(a - b);
+// console.log(a * b);
+// console.log(a / b);
+// console.log(a % b);
+// console.log(a++); // increment
+// console.log(a);
+// console.log(b--); // decrement
+// console.log(b);
+// console.log(a**5); // daraja
+// console.log(a ** 1 / 2); // ildiz
 
-
-
+console.log(789*90);
+console.log(900+700);
+console.log(678**2);
 
